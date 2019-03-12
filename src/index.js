@@ -1,6 +1,6 @@
 import html from "./index.pug"
 // Import styles
-import style from "./styles/style.scss";
+import style from "./styles/main.scss";
 // Import scripts
 import script from "./scripts/plugin.js";
 console.log('all files loaded');

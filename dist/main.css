@@ -1,9 +1,21 @@
-@font-face {
-  font-family: 'Myriad Pro - Light Semi Ext';
-  src: local("../fonts/MyriadPro-LightSemiExt.woff"), url(./fonts/MyriadPro-LightSemiExt.woff) format("woff"), url(./fonts/MyriadPro-LightSemiExt.ttf) format("truetype"), url(./fonts/MyriadPro-LightSemiExt.svg) format("svg");
-  font-weight: normal;
-  font-style: normal; }
+.wrapper {
+  display: flex;
+  max-width: 1920px;
+  min-width: 320px; }
 
-h1 {
-  font-family: "Myriad Pro - Light Semi Ext"; }
+.wrapper__left {
+  display: flex;
+  flex-direction: column;
+  width: 33.28125%;
+  margin-left: 4.84375%;
+  margin-top: 5.6875rem; }
+
+.wrapper__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 51.015625%;
+  margin-top: 4.9375rem;
+  margin-left: 6.25%; }
 

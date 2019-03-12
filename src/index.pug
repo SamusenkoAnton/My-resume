@@ -1,8 +1,11 @@
-- var name = '@impulse'
 doctype html
-html
-  head
-title Example
-body
-  h1 Webpack 4 PUG/SASS config by #{name}
-  img(src="./img/EDUCATION ICON.png")
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible', content='ie=edge')
+  title Resume
+  body
+    .wrapper-container
+      .wrapper__left
+        include ./components/intro/intro.pug
+      .wrapper__right

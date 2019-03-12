@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  max-width: 1920px;
+  min-width: 320px;
+}
+.wrapper__left{
+  display:flex;
+  flex-direction:column;
+  width: 33.28125%;
+  margin-left: 4.84375%;
+  margin-top: 5.6875rem;
+}
+.wrapper__right{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width: 51.015625%;
+  margin-top:4.9375rem;
+  margin-left:6.25%;
+}
