@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Myriad Pro - Light Semi Ext';
+  src: local("../fonts/MyriadPro-LightSemiExt.woff"), url(6d04a22c53cde5a0e747b8d2500bc09a.woff) format("woff"), url(9984dafa67d25c49d9ab30f2d6f3d9a3.ttf) format("truetype"), url(eba8eedb846d53f9876b815223699c30.svg) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+h1 {
+  font-family: "Myriad Pro - Light Semi Ext"; }
+
