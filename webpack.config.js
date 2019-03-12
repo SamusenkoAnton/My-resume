@@ -23,9 +23,16 @@ module.exports = {
       {
           test: /\.(woff|ttf|svg)$/,
           use: [
-              "file-loader?name=./fonts/[name].[ext]'"
+              "file-loader?name=./fonts/[name].[ext]"
           ]
       },
+
+        {
+            test: /\.png$/,
+            use: [
+                "file-loader?name=./image/[name].[ext]"
+            ]
+        },
 
       {
         test: /\.scss$/,
