@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: local('☺'), url('fonts/MyriadPro-Bold.woff') format('woff'), url('fonts/MyriadPro-Bold.ttf') format('truetype'), url('fonts/MyriadPro-Bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: local('☺'), url('fonts/MyriadPro-Regular.woff') format('woff'), url('fonts/MyriadPro-Regular.ttf') format('truetype'), url('fonts/MyriadPro-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.contact{
+  display:flex;
+  flex-direction:column;
+  margin-top:3rem;
+  margin-left: -1.7%;
+}
+.contact-title {
+  display:flex;
+  align-items: center;
+}
+.contact-title__text{
+  /* Style for "PROFILE" */
+  /* Style for "PROFILE" */
+  color: #3d6cb0;
+  font-family: "Myriad Pro";
+  font-size: 2.625rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: -0.3rem;
+  margin-left: 2.3%;
+  letter-spacing:0.085rem;
+}
+.contact-title__line{
+  /* Style for "LINE" */
+  width: 100%;
+  height: 0.46875vw;
+  background-color: #3d6cb0;
+  margin-left: 1.61%;
+  margin-top: -0.28rem;
+}

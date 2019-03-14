@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Myriad Pro';           /* название одно */
+  src: url('../fonts/MyriadPro-Bold.woff'); /* разные файлы */
+  font-weight: 700;              /* разная плотность */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Myriad Pro';           /* название одно */
+  src: url('../fonts/MyriadPro-Regular.woff'); /* разные файлы */
+  font-weight: 400;              /* разная плотность */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-LightSemiExt';           /* название одно */
+  src: url('../fonts/MyriadPro-LightSemiExt.woff'); /* разные файлы */
+  font-weight: 400;              /* разная плотность */
+  font-style: normal;
+}
+
+
 
 .wrapper {
   display: flex;

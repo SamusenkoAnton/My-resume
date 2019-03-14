@@ -1,20 +1,13 @@
 @font-face {
-  font-family: 'Myriad Pro';
-  src: local('☺'), url('fonts/MyriadPro-Bold.woff') format('woff'), url('fonts/MyriadPro-Bold.ttf') format('truetype'), url('fonts/MyriadPro-Bold.svg') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'MyriadPro-LightSemiExt';
-  src: local('☺'), url('fonts/MyriadPro-LightSemiExt.woff') format('woff'), url('fonts/MyriadPro-LightSemiExt.ttf') format('truetype'), url('fonts/MyriadPro-LightSemiExt.svg') format('svg');
-  font-weight: normal;
+  font-family: 'Myriad Pro';           /* название одно */
+  src: url('./fonts/MyriadPro-Bold.woff'); /* разные файлы */
+  font-weight: 700;              /* разная плотность */
   font-style: normal;
 }
 @font-face {
-  font-family: 'Myriad Pro';
-  src: local('☺'), url('fonts/MyriadPro-Regular.woff') format('woff'), url('fonts/MyriadPro-Regular.ttf') format('truetype'), url('fonts/MyriadPro-Regular.svg') format('svg');
-  font-weight: normal;
+  font-family: 'Myriad Pro';           /* название одно */
+  src: url('./fonts/MyriadPro-Regular.woff'); /* разные файлы */
+  font-weight: 400;              /* разная плотность */
   font-style: normal;
 }
 
@@ -30,15 +23,15 @@
 }
 .profile-title__text{
   /* Style for "PROFILE" */
-  /* Style for "PROFILE" */
   color: #3d6cb0;
-  font-family: "Myriad Pro";
-  font-size: 2.625rem;
+  font-family: 'Myriad Pro';
   font-weight: 700;
+  font-size: 2.625rem;
   text-transform: uppercase;
   margin-top: -0.1rem;
   margin-left: 2.2%;
   letter-spacing:0.085rem;
+
 }
 .profile-title__line{
   /* Style for "LINE" */
