@@ -1,0 +1,20 @@
+style
+    include ./styles/education.scss
+.education
+    .education-title
+        .education-title__icon
+            include img/EDUCATION_ICON.svg
+        .education-title__text Education
+        .education-title__line
+    .education-list
+        - for (var x = 0; x < 4; x++)
+            .list__item
+                .marker
+                    .circle-marker
+                .list-info
+                    .list__title
+                        .list__degree Master degree
+                        .list__date // Feb 2011 - Jun 2014
+                    .list__university University name
+                    .list__text
+                        | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
