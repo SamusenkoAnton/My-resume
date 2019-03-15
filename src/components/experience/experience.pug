@@ -1,0 +1,20 @@
+style
+    include ./styles/experience.scss
+.experience
+    .experience-title
+        .experience-title__icon
+            include img/EXPERIENCE_ICON.svg
+        .experience-title__text Experience
+        .experience-title__line
+    .experience-list
+        - for (var x = 0; x < 3; x++)
+            .list__item
+                .marker
+                    .circle-marker
+                .list-info
+                    .list__title
+                        .list__company Company name
+                        .list__date // Feb 2011 - Jun 2014
+                    .list__job Your job here
+                    .list__text
+                        | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.

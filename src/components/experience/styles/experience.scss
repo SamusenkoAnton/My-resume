@@ -1,0 +1,92 @@
+.experience{
+  display:flex;
+  flex-direction:column;
+  margin-top:3.3rem;
+  margin-left: -1.7%;
+}
+.experience-title {
+  display:flex;
+  align-items: center;
+}
+.experience-title__text{
+  /* Style for "PROFILE" */
+  color: #3d6cb0;
+  font-family: "Myriad Pro";
+  font-size: 2.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: -0.35rem;
+  margin-left: 2.8%;
+  letter-spacing: 0.025rem;
+}
+.experience-title__line{
+  /* Style for "LINE" */
+  width: 100%;
+  height: 0.46875vw;
+  background-color: #3d6cb0;
+  margin-left: 0.1%;
+  margin-top: -0.4rem;
+}
+.experience-list{
+  margin-top: 1.6rem;
+  margin-left: 1.9%;
+}
+.list__item{
+  margin-top: 0.52rem;
+  display: flex;
+}
+.list-info{
+
+  margin-left: 3.2%;
+}
+.list__title{
+  margin-top: 0.25rem;
+  display:flex;
+}
+.list__company{
+  color: black;
+  font-size: 1.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
+  letter-spacing: -0.01rem;
+}
+.list__date{
+  /* Style for "// Feb 201" */
+  color: #020202;
+  font-size: 1.6875rem;
+  font-weight: 400;
+  margin-left: 2%;
+  font-family: "Myriad Pro";
+  letter-spacing: -0.01rem;
+}
+.list__job{
+  /* Style for "UNIVERSITY" */
+  margin-top: 0.1rem;
+  color: #000000;
+  font-size: 1.6875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
+  letter-spacing: -0.01rem;
+}
+.list__text{
+  margin-top: 0.18rem;
+  width: 100%;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Myriad Pro";
+}
+.marker {
+
+}
+.circle-marker {
+  width: 1.3rem;
+  height: 1.3rem;
+  /* Style for "circle" */
+  background-color: #000000;
+  border-radius: 240px;
+  margin-top: 0.6rem;
+  margin-left: 0.1%;
+}
