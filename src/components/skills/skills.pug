@@ -1,0 +1,33 @@
+style
+    include ./styles/skills.scss
+.skills
+    .skills-title
+        .skills-title__icon
+            include img/SKILLS_ICON.svg
+        .skills-title__text Skills
+        .skills-title__line
+    .skills-graph
+        .skills-graph__title Creative
+        .skills-graph__circle
+            - for (var x = 0; x < 9; x++)
+                .graph-circle
+            - for (var x = 0; x < 3; x ++)
+                .graph-circle.graph-circle__grey
+        .skills-graph__title Teamwork
+        .skills-graph__circle
+            - for (var x = 0; x < 11; x++)
+                .graph-circle
+            - for (var x = 0; x < 1; x ++)
+                .graph-circle.graph-circle__grey
+        .skills-graph__title Innovate
+        .skills-graph__circle
+            - for (var x = 0; x < 6; x++)
+                .graph-circle
+            - for (var x = 0; x < 6; x ++)
+                .graph-circle.graph-circle__grey
+        .skills-graph__title Communication
+        .skills-graph__circle
+            - for (var x = 0; x < 11; x++)
+                .graph-circle
+            - for (var x = 0; x < 1; x ++)
+                .graph-circle.graph-circle__grey
