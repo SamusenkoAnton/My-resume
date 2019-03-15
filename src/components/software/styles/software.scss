@@ -1,0 +1,63 @@
+.software{
+  display:flex;
+  flex-direction:column;
+  margin-top:3.5rem;
+  margin-left: -1.7%;
+}
+.software-title {
+  display:flex;
+  align-items: center;
+}
+.software-title__text{
+  color: #3d6cb0;
+  font-family: "Myriad Pro";
+  font-size: 2.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 2.8%;
+  letter-spacing: 0.025rem;
+}
+.software-title__line{
+  width: 100%;
+  height: 0.375rem;
+  background-color: #3d6cb0;
+  margin-left: 4%;
+}
+.software-info{
+  display:flex;
+  margin-left: 1%;
+  margin-top: -0.5rem;
+}
+.software_item{
+  margin-top: 1.8rem;
+  margin-bottom: -0.55rem;
+}
+.software__right{
+  margin-left: 11%;
+}
+.software-item__name {
+  /* Style for "DREAMWEAVE" */
+  font-family: "Myriad Pro";
+  margin-top: 1rem;
+  color: #000000;
+  font-size: 1.6875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.software-item__graph{
+  margin-top: 0.85rem;
+}
+
+progress {
+  width: 22.421875vw;
+  height: 1.5rem;
+  background-color: #f3f3f3;
+}
+progress::-webkit-progress-bar {
+  /* стилевые правила */
+  background-color: #e6e6e6;
+}
+progress::-webkit-progress-value {
+  /* стилевые правила */
+  background-color: #3d6cb0;
+}
