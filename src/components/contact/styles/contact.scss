@@ -27,11 +27,11 @@
   color: #3d6cb0;
   font-family: "Myriad Pro";
   font-size: 2.625rem;
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
-  margin-top: -0.3rem;
-  margin-left: 2.3%;
-  letter-spacing:0.085rem;
+  margin-top: -0.4rem;
+  margin-left: 2.6%;
+  letter-spacing: 0.05rem;;
 }
 .contact-title__line{
   /* Style for "LINE" */
@@ -39,5 +39,27 @@
   height: 0.46875vw;
   background-color: #3d6cb0;
   margin-left: 1.61%;
-  margin-top: -0.28rem;
+  margin-top: -0.4rem;
+}
+.contact-info {
+  display: flex;
+  margin-top: 0.8rem;
+}
+.contact__left {
+  line-height: 3.5rem;
+  color: #3d6cb0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
+  font-size: 1.3125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contact__right {
+  line-height: 3.5rem;
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-size: 1.3125rem;
+  font-weight: 400;
+  margin-left: 10.33%;
 }
