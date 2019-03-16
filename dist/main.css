@@ -45,3 +45,31 @@
   margin-top: 2.25rem;
   margin-left: 7%; }
 
+@media (min-width: 320px) and (max-width: 380px) {
+  html {
+    font-size: 4px; } }
+
+@media (min-width: 381px) and (max-width: 539px) {
+  html {
+    font-size: 5px; } }
+
+@media (min-width: 540px) and (max-width: 659px) {
+  html {
+    font-size: 7.97px; } }
+
+@media (min-width: 660px) and (max-width: 914px) {
+  html {
+    font-size: 10px; } }
+
+@media (min-width: 915px) and (max-width: 1199px) {
+  html {
+    font-size: 13px; } }
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  html {
+    font-size: 16px; } }
+
+@media (min-width: 1400px) and (max-width: 1960px) {
+  html {
+    font-size: 20px; } }
+
